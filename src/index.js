@@ -3,16 +3,24 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Welcome from "./components/Home";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
+import Profile from "./components/Profile";
+import Signup from "./components/Signup";
+import Login from "./components/Login";
+import About from "./components/About";
+import Testamonies from "./components/Testamonies";
+import Opportunities from './components/Opportunities'
 
 
 ReactDOM.render(
   <React.StrictMode>
    <App />
+   <Navbar />
+   <Footer />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
